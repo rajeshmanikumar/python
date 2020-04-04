@@ -46,7 +46,7 @@ cursor.execute('SELECT * FROM test.employees LIMIT 5')
 for row in cursor: print(row)
 conn.close()
 
-# SQL Server Python
+# PostgreSQL Python
 # pip install psycopg2
 
 import psycopg2
