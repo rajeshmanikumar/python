@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Application secrets & database
+data/.secret.key
+data/servers.json
+
+# Logs
+*.log
